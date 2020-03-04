@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: OpenWrt-x86-64-Actions
+name: OpenWrt-6500-Actions
 
 on:
 # 定时触发(每天早6点)
@@ -38,7 +38,7 @@ on:
 env:
   REPO_URL: https://github.com/Lienol/openwrt
   REPO_BRANCH: dev-19.07
-  DIY_SH: OpenWrt-x86-64.sh
+  DIY_SH: Build_6500.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
